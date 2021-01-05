@@ -124,6 +124,8 @@
   },
   "homepage": "http://Danis96.github.io/react-deploy-sicon",
   "scripts": {
+    "predeploy": "npm run webpack:build",
+    "deploy": "gh-pages -d build",
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,tsx,css,scss,yml}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "npm run lint -- --fix",
@@ -144,9 +146,7 @@
     "webpack:prod": "npm run cleanup && npm run webpack:prod:main",
     "webpack:test": "npm run test",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm build"
+    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
   },
   "jestSonar": {
     "reportPath": "build/test-results/jest",
