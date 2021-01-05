@@ -1,0 +1,32 @@
+{
+  "siconFrontendApp": {
+    "machines": {
+      "home": {
+        "title": "Machines",
+        "createLabel": "Create a new Machines",
+        "createOrEditLabel": "Create or edit a Machines",
+        "notFound": "No Machines found"
+      },
+      "created": "A new Machines is created with identifier {{ param }}",
+      "updated": "A Machines is updated with identifier {{ param }}",
+      "deleted": "A Machines is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Machines {{ id }}?"
+      },
+      "detail": {
+        "title": "Machines"
+      },
+      "company": "Company",
+      "type": "Type",
+      "yearOfProduction": "Year Of Production",
+      "importDate": "Import Date",
+      "remarks": "Remarks",
+      "warrantyStartDate": "Warranty Start Date",
+      "warrantyEndDate": "Warranty End Date",
+      "deliveryNote": "Delivery Note",
+      "serialNumber": "Serial Number",
+      "buyer": "Buyer",
+      "storeId": "Store Id"
+    }
+  }
+}

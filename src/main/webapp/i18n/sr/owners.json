@@ -1,0 +1,26 @@
+{
+  "siconFrontendApp": {
+    "owners": {
+      "home": {
+        "title": "Vlasnici",
+        "createLabel": "Kreiraj novog Vlasnika",
+        "createOrEditLabel": "Kreirajte ili izmjenite Vlasnika",
+        "notFound": "No Owners found"
+      },
+      "created": "Kreiran je novi Vlasnik pod nazivom {{ param }}",
+      "updated": "Vlasnik pod nazivom {{ param }} je ažuriran",
+      "deleted": "Vlasnik pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Vlasnika pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Vlasnik"
+      },
+      "name": "Ime",
+      "address": "Adresa",
+      "contactNumber": "Kontakt broj",
+      "contactPerson": "Kontakt osoba",
+      "stores": "Poslovnica"
+    }
+  }
+}

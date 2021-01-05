@@ -1,0 +1,29 @@
+{
+  "health": {
+    "title": "Ispravnost sistema",
+    "refresh.button": "Osvježi",
+    "stacktrace": "Stacktrace",
+    "details": {
+      "details": "Detalji",
+      "properties": "Osobine",
+      "name": "Ime",
+      "value": "Vrijednost",
+      "error": "Greška"
+    },
+    "indicator": {
+      "diskSpace": "Veličina diska",
+      "mail": "Email",
+      "ping": "Application",
+      "db": "SQL baza podataka"
+    },
+    "table": {
+      "service": "Ime servisa",
+      "status": "Status"
+    },
+    "status": {
+      "UNKNOWN": "UNKNOWN",
+      "UP": "AKTIVAN",
+      "DOWN": "NEAKTIVAN"
+    }
+  }
+}

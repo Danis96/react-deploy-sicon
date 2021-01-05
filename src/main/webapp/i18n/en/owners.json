@@ -1,0 +1,26 @@
+{
+  "siconFrontendApp": {
+    "owners": {
+      "home": {
+        "title": "Owners",
+        "createLabel": "Create a new Owner",
+        "createOrEditLabel": "Create or edit a Owner",
+        "notFound": "No Owners found"
+      },
+      "created": "A new Owner is created with identifier {{ param }}",
+      "updated": "A Owners is updated with identifier {{ param }}",
+      "deleted": "A Owners is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Owners {{ id }}?"
+      },
+      "detail": {
+        "title": "Owners"
+      },
+      "name": "Name",
+      "address": "Address",
+      "contactNumber": "Contact Number",
+      "contactPerson": "Contact Person",
+      "stores": "Stores"
+    }
+  }
+}

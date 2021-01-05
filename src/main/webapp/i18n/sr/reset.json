@@ -1,0 +1,26 @@
+{
+  "reset": {
+    "request": {
+      "title": "Promjena lozinke",
+      "form": {
+        "button": "Promjeni lozinku"
+      },
+      "messages": {
+        "info": "Unesite email adresu koju ste koristili prilikom registracije",
+        "success": "Provjerite Vašu email adresu kako biste vidjeli uputstva za promjenu lozinke."
+      }
+    },
+    "finish": {
+      "title": "Promjena lozinke",
+      "form": {
+        "button": "Potvrdi lozinku"
+      },
+      "messages": {
+        "info": "Unesi novu lozinku",
+        "success": "<strong>Vaša lozinka je uspješno promjenjena.</strong> Molimo Vas ",
+        "keymissing": "Nedostaje ključ za promjenu.",
+        "error": "Vaša lozinka nije promjenjena. Ne zaboravite da zahtjev za promjenu lozinke važi samo 24 sata."
+      }
+    }
+  }
+}

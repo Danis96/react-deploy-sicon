@@ -1,0 +1,24 @@
+{
+  "siconFrontendApp": {
+    "stores": {
+      "home": {
+        "title": "Poslovnice",
+        "createLabel": "Kreiraj novi Poslovnicu",
+        "createOrEditLabel": "Kreirajte ili izmenite Poslovnicu",
+        "notFound": "No Stores found"
+      },
+      "created": "Kreirana je nova Poslovnica pod nazivom {{ param }}",
+      "updated": "Poslovnica pod nazivom {{ param }} je ažurirana",
+      "deleted": "Poslovnica pod nazivom {{ param }} je obrisana",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Poslovnicu pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Poslovnica"
+      },
+      "address": "Adresa",
+      "machines": "Mašine",
+      "ownerId": "Vlasnik ID"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "siconFrontendApp": {
+    "machines": {
+      "home": {
+        "title": "Mašine",
+        "createLabel": "Kreiraj novu Mašinu",
+        "createOrEditLabel": "Kreirajte ili izmjenite Mašinu",
+        "notFound": "No Machines found"
+      },
+      "created": "Kreirana je nova Mašina pod nazivom {{ param }}",
+      "updated": "Mašina pod nazivom {{ param }} je ažurirana",
+      "deleted": "Mašina pod nazivom {{ param }} je obrisana",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Mašinu pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Mašine"
+      },
+      "company": "Kompanija",
+      "type": "Tip",
+      "yearOfProduction": "Godina proizvodnje",
+      "importDate": "Datum uvoza",
+      "remarks": "Primjedbe",
+      "warrantyStartDate": "Pocetak garancije",
+      "warrantyEndDate": "Kraj garancije",
+      "deliveryNote": "Napomena o isporuci",
+      "serialNumber": "Serijski broj",
+      "buyer": "Kupac",
+      "storeId": "ID trgovine"
+    }
+  }
+}
